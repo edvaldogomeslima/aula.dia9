@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@400;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Azeret Mono', monospace;
+   
+}
+
+
+.container .content .forms {
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.container .content .forms span a{
+    margin-bottom: 10px;
+
+    font-size: 14px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.container .content .forms span a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+
+.container .content .forms h1{
+    font-size: 22px;
+
+    margin: 20px;
+}
+
+.container .content .forms h5{
+    margin-bottom: 10px;
+}
+
+.container .content .forms .icons i{
+    margin: 7px;
+    font-size: 22px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.container .content .forms .icons i:hover{
+    color: pink;
+}
+
+.container .content .forms input{
+    padding: 20px;
+    width: 20%;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    transition: 1s;
+    
+}
+
+.container .content .forms input:focus{
+    box-shadow: 0px 4px 2px 2px #ccc;
+}
+
+
+.container .content .forms .btn-grad {background-image: linear-gradient(to right, #834d9b 0%, #d04ed6  51%, #834d9b  100%)}
+.btn-grad {
+    width: 20%;
+    margin: 20px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    border: transparent;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+         
